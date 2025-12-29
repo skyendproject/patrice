@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Now:wght@400;700&display=swap');
+/* Custom header fonts and overrides */
+
+.header-container {
+  font-family: 'Helvetica Now', Arial, Helvetica, sans-serif;
+}
+
+.header-container .nav-link,
+.header-container .connect-btn {
+  font-family: 'Helvetica Now', Arial, Helvetica, sans-serif;
+}
+
+.header-container .nav-link-active,
+.header-container .connect-btn {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/* Optionally, if "Albra" font is available, you can add it here as a fallback for headings */
+/*
+@import url('https://fonts.cdnfonts.com/css/albra');
+.header-container .nav-link-active,
+.header-container .connect-btn {
+  font-family: 'Albra', 'Times New Roman', Times, serif;
+}
+*/
+
