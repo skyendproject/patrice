@@ -15,7 +15,10 @@ export default function Hero() {
       {/* Overlay Content */}
       <div className="relative z-10 flex flex-col items-start justify-center h-full w-full max-w-5xl px-4 md:px-2 text-left">
         <div className="w-full md:w-1/2">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-serif text-[#DA5B00] mb-4 drop-shadow-lg leading-tight" style={{fontFamily: "'Times New Roman', Times, serif"}}>
+          <h1
+            className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#DA5B00] mb-4 drop-shadow-lg leading-tight"
+            style={{ fontFamily: "'Times New Roman', Times, serif", fontWeight: 700 }}
+          >
             From Stuck to Freedom
           </h1>
           <p className="text-base md:text-2xl font-sans text-[#3d3246] mb-8" style={{fontFamily: "'Helvetica Now', Arial, Helvetica, sans-serif"}}>
